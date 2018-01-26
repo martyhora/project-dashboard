@@ -1,0 +1,134 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    .btn-success {
+        width: 100%;
+    }
+}
+
+.glyphicon {
+    font-size: 20px;
+}
+
+.table .editable-buttons .glyphicon {
+    font-size: 14px;
+}
+
+.input-group-btn .glyphicon {
+    font-size: 13px;
+}
+
+.not-logged .content-wrapper,
+.not-logged .main-footer {
+    margin-left: 0;
+}
+
+.table > tbody > tr:first-child > td,
+.table > tbody > tr:first-child > th {
+    border: none;
+}
+
+.todo-list .fa {
+    font-size: 20px;
+}
+
+.sidebar-menu li.no-hover a {
+    display: inline-block;
+}
+
+.sidebar-menu li.no-hover:hover a {
+    background: none;
+    border-left: transparent solid;
+}
+
+.sortable-handle {
+    cursor: move;
+}
+
+.skin-blue .sidebar-form {
+    border-radius: 0;
+}
+
+.skin-blue .sidebar-form input[type="text"], .skin-blue .sidebar-form .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.myGrid, .myGrid2 {
+    width: 100%;
+    height: 250px;
+}
+
+.myGrid2 {
+    height: 600px;
+}
+
+.watermark {
+    position: absolute;
+    top: 100px;
+    opacity: 0.25;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+#loading-bar .bar {
+    background: #fff;
+}
+
+#loading-bar-spinner .spinner-icon {
+    border-top-color: #fff;
+    border-left-color: #fff;
+}
+
+.flash-message {
+    margin-top: 15px;
+}
+
+.content-header h1 {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.fa-spin-custom, .glyphicon-spin {
+    -webkit-animation: spin 1000ms infinite linear;
+    animation: spin 1000ms infinite linear;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
